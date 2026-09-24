@@ -1,0 +1,9 @@
+{
+  "name": "repodoctor-test",
+  "version": "1.0.0",
+  "description": "Safe repository used for RepoDoctor testing",
+  "scripts": {
+    "test": "node tests/utils.test.js"
+  },
+  "dependencies": {}
+}
