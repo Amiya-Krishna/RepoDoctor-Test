@@ -1,9 +1,8 @@
 {
-  "name": "repodoctor-test",
+  "name": "repodoctor-test-generation-repo",
   "version": "1.0.0",
-  "description": "Safe repository used for RepoDoctor testing",
+  "type": "module",
   "scripts": {
-    "test": "node tests/utils.test.js"
-  },
-  "dependencies": {}
+    "test": "node test.js"
+  }
 }
