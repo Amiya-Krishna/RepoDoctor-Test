@@ -3,12 +3,12 @@ export function add(a, b) {
 }
 
 export function subtract(a, b) {
-  // Intentional bug: adds instead of subtracting
   return a - b;
 }
 
 export function multiply(a, b) {
-  return a * b;
+  // Intentional bug: adds instead of multiplying
+  return a + b;
 }
 
 export function divide(a, b) {
