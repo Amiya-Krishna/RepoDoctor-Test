@@ -4,7 +4,7 @@ export function add(a, b) {
 
 export function subtract(a, b) {
   // Intentional bug: adds instead of subtracting
-  return a + b;
+  return a - b;
 }
 
 export function multiply(a, b) {
